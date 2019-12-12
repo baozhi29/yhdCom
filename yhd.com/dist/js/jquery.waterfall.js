@@ -1,0 +1,1 @@
+"use strict";!function(f){f.fn.waterfall=function(){var t=this,i=t.children(),e=t.width(),n=f(".item").width(),a=(e-5*n)/4,c=[];i.each(function(t,i){if(t<5)f(i).css({top:0,left:t*(n+a)}),c[t]=f(i).height();else{var e=0,h=c[e];f.each(c,function(t,i){i<h&&(h=i,e=t)}),f(i).css({left:e*(n+a),top:h+30}),c[e]=c[e]+30+f(i).height()}});var h=Math.max.apply(null,c);t.height(h)}}($);

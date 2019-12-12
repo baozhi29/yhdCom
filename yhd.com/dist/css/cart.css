@@ -1,0 +1,234 @@
+@import url("./reset.css");
+.wrap {
+  width: 1070px;
+  margin: 0 auto; }
+
+.hd-top {
+  background: #f4f4f4;
+  height: 30px;
+  border-bottom: 1px solid #e5e5e5;
+  min-width: 1070px; }
+
+.ht-main {
+  background: #f4f4f4; }
+
+.ht-main ul {
+  float: right; }
+  .ht-main ul li {
+    float: left;
+    line-height: 30px; }
+    .ht-main ul li span {
+      color: #aaaaaa; }
+
+.ht-main ul li:nth-child(1) {
+  margin-right: 10px; }
+  .ht-main ul li:nth-child(1) span {
+    color: #000;
+    float: left; }
+  .ht-main ul li:nth-child(1) button {
+    color: #ff4040;
+    font-size: 12px;
+    background: none;
+    border: none;
+    padding: 0;
+    vertical-align: baseline;
+    display: inline; }
+  .ht-main ul li:nth-child(1) button:nth-of-type(2) {
+    margin: 0 12px;
+    color: #aaaaaa; }
+    .ht-main ul li:nth-child(1) button:nth-of-type(2):hover {
+      color: #ff4040; }
+
+.ht-main ul li:nth-child(2) {
+  margin-right: 14px; }
+  .ht-main ul li:nth-child(2) a:hover {
+    color: #ff4040; }
+    .ht-main ul li:nth-child(2) a:hover span {
+      color: #ff4040; }
+
+.ht-main ul li:nth-child(3) a:hover {
+  color: #ff4040; }
+  .ht-main ul li:nth-child(3) a:hover span {
+    color: #ff4040; }
+
+.logo {
+  padding-top: 10px;
+  margin-bottom: 10px;
+  height: 60px; }
+  .logo a {
+    text-indent: -9999px;
+    display: block;
+    width: 40px;
+    height: 28px;
+    background: url(../img/logo3.png) no-repeat;
+    float: left;
+    margin-top: 16px;
+    margin-right: 10px; }
+  .logo img {
+    margin-top: 19px; }
+
+#main {
+  background: url(../img/bg.png) no-repeat;
+  background-size: cover;
+  min-width: 1070px;
+  padding-bottom: 30px; }
+
+.product h2 {
+  height: 60px;
+  text-align: center;
+  font-size: 18px;
+  color: #ff4040;
+  line-height: 60px; }
+
+.product > div {
+  height: 522px;
+  background: #fff;
+  border: 1px solid #eee; }
+  .product > div figure {
+    height: 210px;
+    width: 150px;
+    float: left;
+    margin: 25px 31px; }
+    .product > div figure > div {
+      width: 150px;
+      position: relative; }
+      .product > div figure > div img {
+        width: 100%; }
+      .product > div figure > div > span {
+        position: absolute;
+        left: 0;
+        top: 0;
+        display: none; }
+    .product > div figure figcaption h3 {
+      text-align: center;
+      line-height: 30px;
+      color: #ff4040;
+      font-size: 14px; }
+    .product > div figure figcaption a {
+      display: block;
+      width: 80px;
+      height: 26px;
+      text-align: center;
+      line-height: 26px;
+      background: #ff4040;
+      border-radius: 13px;
+      color: #fff;
+      margin: 5px auto; }
+
+.cart > div:nth-of-type(1) {
+  height: 40px;
+  background: #fff;
+  font-size: 12px;
+  margin: 20px 0;
+  border: 1px solid #eee; }
+  .cart > div:nth-of-type(1) span {
+    width: 210px;
+    text-align: center;
+    display: block;
+    float: left;
+    line-height: 40px; }
+
+.cart_container {
+  min-height: 130px;
+  background: #fff;
+  border: 1px solid #eee;
+  width: 1070px; }
+  .cart_container tbody tr {
+    height: 115px; }
+    .cart_container tbody tr td {
+      width: 210px;
+      text-align: center;
+      font-size: 14px; }
+    .cart_container tbody tr td:nth-of-type(2) > div {
+      float: left;
+      width: 75px; }
+      .cart_container tbody tr td:nth-of-type(2) > div img {
+        width: 100%; }
+    .cart_container tbody tr td:nth-of-type(2) span {
+      margin-top: 25px;
+      display: block; }
+    .cart_container tbody tr td:nth-of-type(5) a:hover {
+      color: #ff4040; }
+    .cart_container tbody tr td:nth-of-type(4) div {
+      margin: 0 auto;
+      width: 84px;
+      height: 24px;
+      text-align: center;
+      line-height: 18px;
+      border: 1px solid #ccc;
+      padding: 2px; }
+      .cart_container tbody tr td:nth-of-type(4) div span:nth-of-type(2) {
+        float: left;
+        font-size: 12px;
+        border-left: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+        display: block;
+        height: 18px;
+        width: 38px; }
+      .cart_container tbody tr td:nth-of-type(4) div span:nth-of-type(1), .cart_container tbody tr td:nth-of-type(4) div span:nth-of-type(3) {
+        float: left;
+        width: 20px; }
+
+#footer .ft-top {
+  height: 126px;
+  padding: 30px 0;
+  display: flex;
+  border-bottom: 1px solid #ebebeb; }
+  #footer .ft-top figure {
+    width: 25%; }
+    #footer .ft-top figure img {
+      float: left; }
+    #footer .ft-top figure figcaption {
+      float: left;
+      margin-left: 15px; }
+      #footer .ft-top figure figcaption h2 {
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 30px;
+        margin-top: 5px; }
+      #footer .ft-top figure figcaption p {
+        font-size: 14px;
+        color: #a2a2a2; }
+
+#footer .ft-nav {
+  height: 210px; }
+
+#footer .fn-left {
+  width: 730px;
+  display: flex;
+  padding-top: 30px;
+  float: left; }
+  #footer .fn-left dl {
+    width: 25%;
+    padding-left: 25px; }
+    #footer .fn-left dl dt {
+      font-size: 14px;
+      line-height: 30px;
+      color: #666; }
+    #footer .fn-left dl dd {
+      font-size: 12px;
+      line-height: 25px; }
+      #footer .fn-left dl dd a:hover {
+        color: #ff4040; }
+
+#footer .fn-right {
+  float: left; }
+  #footer .fn-right dl {
+    float: left;
+    margin-top: 30px;
+    margin-left: 50px; }
+    #footer .fn-right dl dt {
+      font-size: 14px;
+      font-weight: 800;
+      margin-bottom: 5px;
+      color: #666666; }
+
+.ft-bottom {
+  text-align: center; }
+  .ft-bottom div a {
+    margin: 0 5px; }
+    .ft-bottom div a:hover {
+      color: #ff4040; }
+  .ft-bottom div P {
+    margin-top: 10px;
+    color: #898989; }
